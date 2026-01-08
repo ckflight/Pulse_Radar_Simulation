@@ -5,6 +5,10 @@ The implementation is intentionally radar-realistic and chip-accurate.
 
 ---
 
+<img width="3660" height="1905" alt="Image" src="https://github.com/user-attachments/assets/f5adc547-d670-4eae-8c8c-719d9777ef61" />
+
+<img width="2780" height="1710" alt="Image" src="https://github.com/user-attachments/assets/ebc8d651-3857-4d33-a395-1322c371e27f" />
+
 ## Purpose
 
 The script evaluates how a **matched filter** responds to different received pulse types when using a **phase-coded reference waveform**:
