@@ -154,7 +154,7 @@ if __name__ == "__main__":
     # So chip is: This pulse is divided into 64 time segments, and each segment has a fixed phase.”
     
     # ---- Parameters you care about ----
-    code_type       = "p4"
+    code_type       = "frank"
     Nchips          = 64
     sps             = 16 # pulse has 64 chip segments so phase will change 64 times so during 16 samples phase will be same. Overall adc will have 1024 samples with each 16 has same phase!!!
     fs              = 100.0e6 # Tpulse = Nchips * sps / fs, 64* 16 / 1mhz = 1ms pulse, 64*16/100mhz = 10microsec pulse
@@ -186,7 +186,7 @@ if __name__ == "__main__":
     # IMPORTANT: CFO must be applied on the oversampled waveform using fs.
     drfm2  = oversample_chips(code, sps) # adc baseband if generation # 1x1024 array
     drfm2  = normalize_energy(drfm2)
-    drfm2  = apply_cfo(drfm2, 100e3, fs)   # CFO applied correctly on 1024-sample waveform
+    drfm2  = apply_cfo(drfm2, 500e3, fs)   # CFO applied correctly on 1024-sample waveform
     drfm_code2 = drfm2                   # keep your variable name, but now it is the CFO-impaired waveform
     drfm2_phase_deg = phase_deg_rounded(drfm_code2)
     print("DRFM pulse phase shifted values", drfm2_phase_deg)
