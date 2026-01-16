@@ -161,7 +161,7 @@ if __name__ == "__main__":
     delay_samp      = 400
     fd_hz           = 1000.0  
     snr_db          = 30.0
-    lo_phase_shift  = 180.0
+    lo_phase_shift  = 300.0
      
     # ---- Build reference waveform (the radar's known transmit) ----
     code = make_phase_code(code_type, Nchips) # 1x64 array
