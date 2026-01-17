@@ -9,6 +9,10 @@ The implementation is intentionally radar-realistic and chip-accurate.
 
 <img width="2780" height="1710" alt="Image" src="https://github.com/user-attachments/assets/ebc8d651-3857-4d33-a395-1322c371e27f" />
 
+<img width="2269" height="1613" alt="Image" src="https://github.com/user-attachments/assets/87e7aeff-31de-4566-8eaa-662d20880b0e" />
+
+<img width="2388" height="1744" alt="Image" src="https://github.com/user-attachments/assets/3f040c69-b7f1-4d2f-b7bd-9b42d6f8a2a1" />
+
 ## Purpose
 
 The script evaluates how a **matched filter** responds to different received pulse types when using a **phase-coded reference waveform**:
