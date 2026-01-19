@@ -77,6 +77,7 @@ def peak_floor_metrics(y: np.ndarray, guard: int = 30):
     p2f_db = 20*np.log10(peak / floor)
     return pk, 20*np.log10(peak), 20*np.log10(floor), p2f_db
 
+
 # ============================================================
 # Simple waveform: Barker-13 (fast & realistic enough for demo)
 # ============================================================

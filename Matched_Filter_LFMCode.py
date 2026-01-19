@@ -106,7 +106,7 @@ if __name__ == "__main__":
 
     # ---- DRFM partial capture params ----
     cap_start  = 0e-6         # seconds into the pulse (e.g., 0 us)
-    cap_dur    = 30e-6        # capture duration (e.g., 30 us of 50 us)
+    cap_dur    = 20e-6        # capture duration (e.g., 30 us of 50 us)
     replay_mode = "same_time" # "same_time" or "from_start"
 
     # ---- Channel params ----
